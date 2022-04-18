@@ -18,7 +18,7 @@ export default abstract class ExtractorAbstract {
     extractURLFromKeyword = (keyword: string): Promise<string[]> => {
 
         return new Promise((resolve, reject) => {
-
+            
             fetchPageTextContent(getSearchURL(this.URL, keyword))
                 .then(rs => {
                     const regex = new RegExp(`(https://${this.URL}/[a-z0-9-/]+)`, "gi");

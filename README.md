@@ -40,6 +40,10 @@ This will:
 
 _Note: When you make changes, you should refresh that window to apply changes. To refresh, open Command Palette (Command+Shift+P on MacOS, or Ctrl+Shift+P on Windows), then choose "Developer: Reload window"_
 
+author:ckx, 添加了国内使用baidu.com进行search的方法。需要设置下header的cookie和User-Agent内容
+
+![image-20220418111825727](./README.assets/image-20220418111825727.png)
+
 ---
 
 ## 2. Play with Captain Stack
@@ -130,3 +134,8 @@ Love Captain Stack? Check out other things I do:
 
 - [Inverr Nocode Site Builder](https://inverr.com/?ref=github-filepond)
 - [Hieu's Twitter](https://twitter.com/hieuSSR/)
+
+
+
+
+
