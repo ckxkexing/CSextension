@@ -18,7 +18,6 @@ type IConfig = {
     settings: {
         sites: { [name: string]: boolean },
         maxResults: number,
-        Cookie: string,
         User_Agent: string
     }
 }
@@ -35,7 +34,6 @@ export function getConfig() {
         settings: {
             sites,
             maxResults: config.settings.maxResults,
-            Cookie: config.settings.Cookie,
             User_Agent: config.settings.User_Agent
         }
     } as IConfig;
